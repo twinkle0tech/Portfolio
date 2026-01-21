@@ -1,8 +1,8 @@
 # Muskan Tamang - Professional Portfolio
 
-![Portfolio Preview](./images/screenshot.png)
-
 A fully responsive portfolio website showcasing my skills, projects, and professional journey as a tech enthusiast and designer.
+
+---
 
 ## 🌟 Features
 
@@ -23,6 +23,8 @@ A fully responsive portfolio website showcasing my skills, projects, and profess
   - CSS3 animations and transitions
   - PHP backend with MySQL database
   - Form validation (client + server side)
+ 
+---
 
 ## 🛠️ Technologies
 
@@ -32,6 +34,8 @@ A fully responsive portfolio website showcasing my skills, projects, and profess
 | CSS3           | MySQL         | Git            |
 | JavaScript     |               | VS Code        |
 | Font Awesome   |               | Google Fonts   |
+
+---
 
 ## 🚀 Quick Setup (XAMPP)
 
@@ -45,9 +49,8 @@ A fully responsive portfolio website showcasing my skills, projects, and profess
    # Move to htdocs
    mv portfolio /path/to/xampp/htdocs/
 
-
-
-  ##Database Configuration
+---
+## Database Configuration
 
 Access phpMyAdmin at http://localhost/phpmyadmin
 
