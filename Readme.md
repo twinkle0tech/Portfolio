@@ -1,74 +1,57 @@
-# Muskan Tamang - Professional Portfolio
+# 🌐 Muskan Tamang - Portfolio Website
 
-A fully responsive portfolio website showcasing my skills, projects, and professional journey as a tech enthusiast and designer.
-
----
-
-## 🌟 Features
-
-- **Modern Responsive Design**
-  - Mobile-first approach
-  - Cross-browser compatible
-  - Animated UI elements
-
-- **Complete Sections**
-  - Hero with animated profile image
-  - About me with skills matrix
-  - Interactive timeline
-  - Project showcase
-  - Working contact form
-
-- **Technical Highlights**
-  - Vanilla JavaScript (no jQuery)
-  - CSS3 animations and transitions
-  - PHP backend with MySQL database
-  - Form validation (client + server side)
- 
----
-
-## 🛠️ Technologies
-
-| Frontend       | Backend       | Tools          |
-|----------------|---------------|----------------|
-| HTML5          | PHP 7+        | XAMPP          |
-| CSS3           | MySQL         | Git            |
-| JavaScript     |               | VS Code        |
-| Font Awesome   |               | Google Fonts   |
+This is my personal **responsive portfolio website** where I showcase my skills, education, experience, and projects.  
+It includes a modern UI with animations, social links, and a working contact form.
 
 ---
 
-## 🚀 Quick Setup (XAMPP)
+## ✨ Features
 
-1. **Install XAMPP**  
-   Download from [Apache Friends](https://www.apachefriends.org/)
-
-2. **Project Setup**
-   ```bash
-   # Clone repository
-   git clone https://github.com/twinkle0tech/portfolio.git
-   # Move to htdocs
-   mv portfolio /path/to/xampp/htdocs/
+✅ Responsive & Modern Design  
+✅ Hero Section with intro + profile image  
+✅ About Section with skills + languages  
+✅ Education & Experience Timeline  
+✅ Projects / Work Showcase  
+✅ Contact Form section  
+✅ Social Media Links (GitHub, LinkedIn, Instagram)  
+✅ Clean UI + smooth navigation  
 
 ---
-## Database Configuration
 
-Access phpMyAdmin at http://localhost/phpmyadmin
+## 🛠️ Tech Stack Used
 
-Create database portfolio_db
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla JS)**
+- **Font Awesome Icons**
+- **Google Fonts**
+- **Three.js (3D background effects)**
 
-Import this SQL:
+---
+## 🚀 How to Run the Project
 
-sql
-CREATE TABLE contacts (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(100) NOT NULL,
-  email VARCHAR(100) NOT NULL,
-  subject VARCHAR(200) NOT NULL,
-  message TEXT NOT NULL,
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+### ✅ Method 1 
+1. Download or Clone the repository
+2. Open the folder
+3. Run `index.html` in your browser
 
+### ✅ Method 2 
+1. Open project in VS Code  
+2. Install **Live Server**
+3. Right click `index.html` → **Open with Live Server**
 
-Launch Project
-Start Apache & MySQL in XAMPP, then visit:
-http://localhost/portfolio
+---
+
+## 📌 Contact Form
+
+The project includes a contact form section.  
+If you want to connect the form properly, you can link it using:
+✅ PHP backend (`submit.php`)  
+✅ OR Formspree / Google Sheets API  
+
+---
+
+## 👩‍💻 Author
+
+**Muskan Tamang**  
+
